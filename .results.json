@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 4,
+    "pending": 0,
+    "failures": 2,
+    "start": "2024-03-20T12:04:08.084Z",
+    "end": "2024-03-20T12:04:11.063Z",
+    "duration": 2979
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 18,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 17,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:21:14)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "mostProfitableNeighborhood is not defined"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 33,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected 'const companyName = \\'Scuber\\';\\n// Code your solution in this file!\\nlet mostprofitableNeighbour = \\'chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "const companyName = 'Scuber';\n// Code your solution in this file!\nlet mostprofitableNeighbour = 'chelsea';\nlet companyCeo = 'Susan Smith';\n",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected 'const companyName = \\'Scuber\\';\\n// Code your solution in this file!\\nlet mostprofitableNeighbour = \\'chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:25:21)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:21:14)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "mostProfitableNeighborhood is not defined"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 33,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected 'const companyName = \\'Scuber\\';\\n// Code your solution in this file!\\nlet mostprofitableNeighbour = \\'chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "const companyName = 'Scuber';\n// Code your solution in this file!\nlet mostprofitableNeighbour = 'chelsea';\nlet companyCeo = 'Susan Smith';\n",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected 'const companyName = \\'Scuber\\';\\n// Code your solution in this file!\\nlet mostprofitableNeighbour = \\'chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:25:21)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 18,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 17,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
